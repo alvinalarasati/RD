@@ -10,7 +10,7 @@ if ROOT not in sys.path:
 
 # Model directory dan model keras (.h5)
 MODEL_DIR = ROOT / 'weights'
-DETECTION_MODEL = MODEL_DIR / 'dr_cnn_model.keras'  # pastikan file ini ada di folder weights
+DETECTION_MODEL = MODEL_DIR / 'rd_clinical_cnn_model.keras'  # pastikan file ini ada di folder weights
 
 # Contoh lainnya jika perlu:
 IMAGES_DIR = ROOT / 'images'

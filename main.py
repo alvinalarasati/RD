@@ -6,7 +6,7 @@ from helper import load_model, classify_image
 import settings
 
 model = load_model(settings.CLASSIFICATION_MODEL)
-class_names = ['No DR', 'Mild', 'Moderate', 'Severe', 'Proliferative DR']
+class_names = ['No DR', 'Mild', 'Moderate', 'Severe', 'PDR']
 
 def main():
     st.title("Klasifikasi Retinopati Diabetik")
